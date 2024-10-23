@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "dongle.dtsi"
-#include "mono36.overlay"
+#include "mono36.dtsi"
 
 &default_layout {
   transform = <&default_transform>;
