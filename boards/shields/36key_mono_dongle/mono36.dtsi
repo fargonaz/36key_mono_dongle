@@ -3,7 +3,8 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "dongle.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "default_layout.dtsi"
 
 &default_layout {
   transform = <&default_transform>;
