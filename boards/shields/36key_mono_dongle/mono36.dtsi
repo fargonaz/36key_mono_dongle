@@ -8,9 +8,9 @@
 
 #include "m36.dtsi"
 
-&default_layout {
-  transform = <&default_transform>;
-};
+//&default_layout {
+//  transform = <&default_transform>;
+//};
 
 / {
     chosen {
