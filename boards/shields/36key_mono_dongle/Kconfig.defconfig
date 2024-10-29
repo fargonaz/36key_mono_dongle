@@ -3,8 +3,10 @@
 
 if SHIELD_DONGLE
 
-  config ZMK_KEYBOARD_NAME
-    default "DONGLE"
+#  config ZMK_KEYBOARD_NAME
+#   default "DONGLE"
+   config ZMK_KEYBOARD_NAME
+    default "MONO36"
 
   config ZMK_SPLIT_ROLE_CENTRAL
     default y

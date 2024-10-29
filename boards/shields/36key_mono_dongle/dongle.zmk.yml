@@ -1,6 +1,6 @@
 file_format: "1"
-id: dongle
-name: DONGLE
+id: mono36
+name: MONO36
 type: shield
 url: https://github.com/fargonaz/36key_mono_dongle
 requires: [pro_micro]
