@@ -14,9 +14,6 @@ if SHIELD_DONGLE
   config ZMK_USB
     default y
 
-  config ZMK_MOUSE
-    default y
-    
 endif # ZMK_DISPLAY
 
 if SHIELD_MONO36 || SHIELD_DONGLE
@@ -25,9 +22,6 @@ config ZMK_SPLIT
     default y
 
 config ZMK_BLE
-    default y
-
-config ZMK_MOUSE
     default y
 
 endif
