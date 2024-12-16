@@ -6,6 +6,7 @@ url: https://github.com/fargonaz/36key_mono_dongle
 requires: [pro_micro]
 features:
   - keys
+  - studio
 siblings:
   - mono36
   - dongle
