@@ -118,10 +118,10 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - BT NXT
   - '&msc SCRL_UP'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_UP'
@@ -130,8 +130,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '1'}
-  - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&msc SCRL_DOWN'
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_DOWN'
@@ -140,8 +140,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,8 +187,8 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [5, 6]
-  k: {t: Upper, h: toggle}
-  l: [colemak, Upper]
+  k: colemak
+  l: [Base]
 - p: [23, 24]
-  k: {t: colemak, h: toggle}
-  l: [Base, colemak]
+  k: mouse
+  l: [colemak]
