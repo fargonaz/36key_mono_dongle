@@ -484,6 +484,14 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="406" y="56" width="28" height="26" class="combo"/>
 <text x="420" y="69" class="combo tap"><tspan style="font-size: 88%">rt_brace</tspan></text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
+<text x="112" y="31" class="combo tap">lf_mkp</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="31" class="combo tap">rf_mkp</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 643)" class="layer-Lower">

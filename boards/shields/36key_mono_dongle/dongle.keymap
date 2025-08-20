@@ -146,6 +146,8 @@ COMBO(l_brck,    &kp LBKT,              LM1 LM0,    COLEMAK,              250, 1
 COMBO(r_brck,    &kp RBKT,              RM1 RM0,    COLEMAK,              250, 100)
 COMBO(l_brace,   &kp LBRC,              LM0 LT0,    COLEMAK,              250, 100)
 COMBO(r_brace,   &kp RBRC,              RM0 RT0,    COLEMAK,              250, 100)
+COMBO(lf_mkp,    &mkp LCLK,             LT3 LT2,    COLEMAK,              250, 100)
+COMBO(rf_mkp,    &mkp RCLK,             LT2 LT1,    COLEMAK,              250, 100)
     };
 };
 

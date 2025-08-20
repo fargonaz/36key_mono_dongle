@@ -210,5 +210,11 @@ combos:
 - p: [5, 15]
   k: rt_brace
   l: [colemak]
+- p: [1, 2]
+  k: lf_mkp
+  l: [colemak]
+- p: [2, 3]
+  k: rf_mkp
+  l: [colemak]
 
     
