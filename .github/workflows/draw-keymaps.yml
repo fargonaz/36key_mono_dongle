@@ -4,14 +4,14 @@ on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - "fargonaz/36key_mono_dongle/dongle.keymap"
-      - "fargonaz/36key_mono_dongle/default_layout.dtsi"
+      - "fargonaz/36key_mono_dongle/boards/shields/36key_mono_dongle/dongle.keymap"
+      - "fargonaz/36key_mono_dongle/boards/shields/36key_mono_dongle/default_layout.dtsi"
       - "keymap_drawer.config.yaml"
       # - 'boards/*/*/*.keymap'
 
 jobs:
   draw:
-    uses: fargonaz/36key_mono_dongle/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    uses: fargonaz/36key_mono_dongle/.github/workflows/draw-zmk.yml@main
     permissions:
       contents: write  # allow workflow to commit to the repo
     with:
