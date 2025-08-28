@@ -1,0 +1,40 @@
+#     keymap -c config/config_keymap-drawer.yaml parse -c 12 -z config/corne.keymap > keymap-drawer/corne.yaml
+#     keymap -c config/config_keymap-drawer.yaml draw keymap-drawer/corne.yaml > keymap-drawer/corne.svg
+
+# Example for using the keymap-drawer ZMK user config workflow
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch: # can be triggered manually
+  push: # automatically run on changes to following paths
+    paths:
+<<<<<<< HEAD
+      - "config/*.keymap"
+      - "config/config_keymap-drawer.yaml"
+      - .github/workflows/keymap-drawer.yaml
+=======
+      - "fargonaz/36key_mono_dongle/boards/shields/36key_mono_dongle/dongle.keymap"
+      - "fargonaz/36key_mono_dongle/boards/shields/36key_mono_dongle/default_layout.dtsi"
+      - "fargonaz/keymap-drawer/my_config.yaml"
+      # - 'boards/*/*/*.keymap'
+>>>>>>> 6de918e0842272d0b91e88ff63116cbfb92e0ecb
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write # allow workflow to commit to the repo
+    with:
+<<<<<<< HEAD
+      amend_commit: true
+      keymap_patterns: "config/*.keymap" # path to the keymaps to parse
+      config_path: "config/config_keymap-drawer.yaml" # config file, ignored if not exists
+      output_folder: "keymap-drawer" # path to save produced SVG and keymap YAML files
+      parse_args: "" # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
+      draw_args: "" # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+=======
+      keymap_patterns: "fargonaz/36key_mono_dongle/boards/shields/key_mono_dongle/dongle.keymap"        # path to the keymaps to parse
+      config_path: "fargonaz/36key_mono_dongle/keymap-drawer/my_config.yaml"  # config file, ignored if not exists
+      output_folder: "fargonaz/36key_mono_dongle/keymap-drawer"            # path to save produced SVG and keymap YAML files
+      parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
+      draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+>>>>>>> 6de918e0842272d0b91e88ff63116cbfb92e0ecb
