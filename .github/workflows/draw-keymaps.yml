@@ -1,0 +1,7 @@
+jobs:
+  draw:
+    uses: fargonaz/36key_mono_dongle/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      # Use the triggering commit's message, prepending the "[Draw]" tag
+      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      # …other inputs
