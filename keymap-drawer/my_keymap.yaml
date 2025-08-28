@@ -214,7 +214,7 @@ combos:
   k: lf_mkp
   l: [colemak]
 - p: [2, 3]
-  k: rf_mkp
+  k: rt_mkp
   l: [colemak]
 
     

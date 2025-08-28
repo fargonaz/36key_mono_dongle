@@ -490,7 +490,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="31" class="combo tap">rf_mkp</text>
+<text x="168" y="31" class="combo tap">rt_mkp</text>
 </g>
 </g>
 </g>
