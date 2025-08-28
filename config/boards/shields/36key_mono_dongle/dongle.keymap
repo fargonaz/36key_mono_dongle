@@ -68,8 +68,8 @@
         FUNCTION {
             display-name = "Function";
             bindings = <
-&kp TAB        &trans      &kp END &trans  &bootloader       &trans    &trans    &kp INS  &trans    &kp PG_UP
-&kp ESC        &trans      &kp DEL &kp LS(SEMI)  &trans      &kp HOME  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT
+&kp TAB        &trans      &kp END &trans   &sys_reset      &trans    &trans    &kp INS  &trans    &kp PG_UP
+&kp ESC        &trans      &kp DEL &kp LS(SEMI)  &bootloader      &kp HOME  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT
 &studio_unlock &trans      &trans  &trans  &trans            &trans    &trans    &trans   &trans    &kp PG_DN
                            &trans  &trans  &trans            &trans    &trans    &trans
             >;
