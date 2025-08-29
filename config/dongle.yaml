@@ -1,5 +1,5 @@
 config:
-  draw_config: dongle.json
+  draw_config: dongle.dtsi
 layout: {zmk_keyboard: dongle}
 layers:
   Base:
