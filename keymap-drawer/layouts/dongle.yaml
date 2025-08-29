@@ -1,6 +1,4 @@
-config:
-  draw_config: dongle.json
-layout: {zmk_keyboard: dongle}
+layout: {zmk_keyboard: dongle, dts_layout: dongle.dts}
 layers:
   Base:
   - [Q, W, E, R, T, Y, U, I, O, P]
