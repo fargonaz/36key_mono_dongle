@@ -1,3 +1,5 @@
+config:
+  draw_config: dongle.json
 layout: {zmk_keyboard: dongle}
 layers:
   Base:
