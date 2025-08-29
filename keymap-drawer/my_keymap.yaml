@@ -186,35 +186,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [8, 9]
-  k: colemak
-  l: [Base]
-- p: [23, 24]
-  k: mouse
-  l: [colemak]
-- p: [3, 4]
-  k: lf_par
-  l: [colemak]
-- p: [5, 6]
-  k: rt_par
-  l: [colemak]
-- p: [13, 14]
-  k: lf_brac
-  l: [colemak]
-- p: [15, 16]
-  k: rt_brac
-  l: [colemak]
-- p: [4, 14]
-  k: lf_brace
-  l: [colemak]
-- p: [5, 15]
-  k: rt_brace
-  l: [colemak]
-- p: [1, 2]
-  k: lf_mkp
-  l: [colemak]
-- p: [2, 3]
-  k: rt_mkp
-  l: [colemak]
+- {p: [8, 9], k: colemak, l: [Base]}
+- {p: [23, 24], k: mouse, l: [colemak]}
+- {p: [3, 4], k: lf_par, l: [colemak]}
+- {p: [5, 6], k: rt_par, l: [colemak]}
+- {p: [13, 14], k: lf_brac, l: [colemak]}
+- {p: [15, 16], k: rt_brac, l: [colemak]}
+- {p: [4, 14], k: lf_brace, l: [colemak]}
+- {p: [5, 15], k: rt_brace, l: [colemak]}
+- {p: [1, 2], k: lf_mkp, l: [colemak]}
+- {p: [2, 3], k: rt_mkp, l: [colemak]}
 
     
