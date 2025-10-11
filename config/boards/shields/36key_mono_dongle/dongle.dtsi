@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "mono36.dtsi"
+#include "36key_split.dtsi"
 
 
 / {
