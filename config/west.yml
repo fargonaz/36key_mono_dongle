@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
-    - name: ZMK Next
+    - name: zmk-next
       url-base: https://github.com/rleyvasal/zmk-next/releases/tag/v0.2.5
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -17,7 +17,7 @@ manifest:
       remote: urob
       revision: main
       path: modules/helpers
-    - name: ZMK Next
+    - name: zmk-next
       remote: zmk-next
       revision: v0.2
   self:
