@@ -9,18 +9,18 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
+ #   - name: zmk
+ #     remote: zmkfirmware
+ #    revision: v0.2
+ #     import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.2
+      remote: zmk-next
+      repo-path: zmk-next
+      revision: v0.2-branch
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
       revision: main
       path: modules/helpers
-    - name: zmk-next
-      remote: zmk-next
-      repo-path: zmk-next
-      revision: v0.2-branch
-      import: app/west.yml
   self:
     path: config
