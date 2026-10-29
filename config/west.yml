@@ -19,6 +19,6 @@ manifest:
       path: modules/helpers
     - name: zmk-next
       remote: zmk-next
-      revision: v0.2
+      revision: v0.2.5
   self:
     path: config
