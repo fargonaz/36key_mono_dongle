@@ -17,7 +17,7 @@ manifest:
       remote: urob
       revision: main
       path: modules/helpers
-    - name: zmk
+    - name: zmk-next
       remote: zmk-next
       repo-path: zmk-next
       revision: v0.2-branch
