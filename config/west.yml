@@ -17,8 +17,10 @@ manifest:
       remote: urob
       revision: main
       path: modules/helpers
-    - name: zmk-next
+    - name: zmk
       remote: zmk-next
-      revision: v0.2.5
+      repo-path: zmk-next
+      revision: v0.2-branch
+      import: app/west.yml
   self:
     path: config
